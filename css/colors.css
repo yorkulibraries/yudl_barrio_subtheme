@@ -22,11 +22,11 @@ body {
 }
 
 #navbar-top {
-  background-color: #055a8e;
+  background-color: #fff !important;
 }
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: #e31837 !important;
 }
 
 a,
@@ -72,7 +72,7 @@ a:active,
 }
 
 .site-footer {
-  background: #292929;
+  background: #e31837 !important;
 }
 
 .region-header,
