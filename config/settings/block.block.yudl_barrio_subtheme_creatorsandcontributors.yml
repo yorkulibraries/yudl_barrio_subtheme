@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.creators_and_contributors
+  module:
+    - facets
+    - system
+  theme:
+    - yudl_barrio_subtheme
+id: yudl_barrio_subtheme_creatorsandcontributors
+theme: yudl_barrio_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'facet_block:creators_and_contributors'
+settings:
+  id: 'facet_block:creators_and_contributors'
+  label: 'Creators and Contributors'
+  label_display: visible
+  provider: facets
+  block_id: creatorsandcontributors
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /solr-search/content

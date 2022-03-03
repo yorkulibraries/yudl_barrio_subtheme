@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yudl_barrio_subtheme
+id: yudl_barrio_subtheme_subjectgeo
+theme: yudl_barrio_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'facet_block:subject_geographic'
+settings:
+  id: 'facet_block:subject_geographic'
+  label: 'Subject (geographic)'
+  label_display: visible
+  provider: facets
+  block_id: subjectgeo
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: /solr-search/content
