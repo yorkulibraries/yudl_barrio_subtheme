@@ -26,19 +26,19 @@ body {
 }
 
 #navbar-main {
-  background-color: #e31837 !important;
+  background-color: ##810001 !important;
 }
 
 a,
 .link {
-  color: #0071b3;
+  color: #e31837;
 }
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color: ##810001;
 }
 
 a:active,
