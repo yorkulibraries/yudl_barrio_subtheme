@@ -26,7 +26,11 @@ body {
 }
 
 #navbar-main {
-  background-color: ##810001 !important;
+  background-color: #810001 !important;
+}
+
+.block.block-yu-branding.block-yu-lib-sub-header-block {
+  background-color: #e31837 !important;
 }
 
 a,
@@ -44,6 +48,14 @@ a:focus,
 a:active,
 .link:active {
   color: #23aeff;
+}
+
+a.navbar-brand,
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+a.navbar-brand:active,
+.link {
+  color: #fff;
 }
 
 .page-item.active .page-link {
