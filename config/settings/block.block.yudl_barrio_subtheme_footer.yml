@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -9,7 +9,7 @@ dependencies:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_footer
 theme: yudl_barrio_subtheme
-region:
+region: top_header
 weight: 0
 provider: null
 plugin: 'system_menu_block:footer'

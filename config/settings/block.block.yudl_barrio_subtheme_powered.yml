@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -7,7 +7,7 @@ dependencies:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_powered
 theme: yudl_barrio_subtheme
-region:
+region: top_header
 weight: 10
 provider: null
 plugin: system_powered_by_block

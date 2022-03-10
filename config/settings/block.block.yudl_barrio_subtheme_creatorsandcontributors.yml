@@ -10,8 +10,8 @@ dependencies:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_creatorsandcontributors
 theme: yudl_barrio_subtheme
-region: sidebar_second
-weight: 0
+region: sidebar_first
+weight: -12
 provider: null
 plugin: 'facet_block:creators_and_contributors'
 settings:
