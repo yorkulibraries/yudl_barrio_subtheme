@@ -11,7 +11,7 @@ dependencies:
 id: yudl_barrio_subtheme_creatorsandcontributors
 theme: yudl_barrio_subtheme
 region: sidebar_first
-weight: -12
+weight: -15
 provider: null
 plugin: 'facet_block:creators_and_contributors'
 settings:

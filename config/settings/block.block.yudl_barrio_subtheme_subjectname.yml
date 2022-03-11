@@ -10,7 +10,7 @@ dependencies:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_subjectname
 theme: yudl_barrio_subtheme
-region: sidebar_first
+region:
 weight: -8
 provider: null
 plugin: 'facet_block:subject_name'

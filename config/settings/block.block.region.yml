@@ -1,0 +1,49 @@
+uuid: d51209be-dbc6-4dc1-9896-09744ac9d20d
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.region
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - yudl_barrio_subtheme
+id: region
+theme: yudl_barrio_subtheme
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'facet_block:region'
+settings:
+  id: 'facet_block:region'
+  label: Region
+  label_display: visible
+  provider: facets
+  block_id: region
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  context:
+    id: context
+    negate: null
+    values: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }

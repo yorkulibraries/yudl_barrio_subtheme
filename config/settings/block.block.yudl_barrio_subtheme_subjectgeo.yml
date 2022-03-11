@@ -7,7 +7,7 @@ dependencies:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_subjectgeo
 theme: yudl_barrio_subtheme
-region: sidebar_first
+region:
 weight: -9
 provider: null
 plugin: 'facet_block:subject_geographic'

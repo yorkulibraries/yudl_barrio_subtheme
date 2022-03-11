@@ -1,0 +1,49 @@
+uuid: 4edac0d5-8966-41c5-bb9d-7730febaf7ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.province
+  module:
+    - context
+    - facets
+    - islandora
+  theme:
+    - yudl_barrio_subtheme
+id: province
+theme: yudl_barrio_subtheme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'facet_block:province'
+settings:
+  id: 'facet_block:province'
+  label: Province
+  label_display: visible
+  provider: facets
+  block_id: province
+visibility:
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  context:
+    id: context
+    negate: null
+    values: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }
