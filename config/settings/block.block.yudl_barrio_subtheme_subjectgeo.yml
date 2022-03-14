@@ -1,13 +1,16 @@
 langcode: en
-status: true
+status: false
 dependencies:
+  config:
+    - facets.facet.subject_geographic
   module:
+    - facets
     - system
   theme:
     - yudl_barrio_subtheme
 id: yudl_barrio_subtheme_subjectgeo
 theme: yudl_barrio_subtheme
-region:
+region: top_header
 weight: -9
 provider: null
 plugin: 'facet_block:subject_geographic'

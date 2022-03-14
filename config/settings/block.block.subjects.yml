@@ -2,25 +2,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.language
+    - facets.facet.subjects
   module:
     - context
     - facets
     - islandora
   theme:
     - yudl_barrio_subtheme
-id: language
+id: subjects
 theme: yudl_barrio_subtheme
 region: sidebar_first
-weight: -12
+weight: -15
 provider: null
-plugin: 'facet_block:language'
+plugin: 'facet_block:subjects'
 settings:
-  id: 'facet_block:language'
-  label: Language
+  id: 'facet_block:subjects'
+  label: Subject
   label_display: visible
   provider: facets
-  block_id: language
+  context_mapping: {  }
+  block_id: subjects
 visibility:
   user_status:
     id: user_status

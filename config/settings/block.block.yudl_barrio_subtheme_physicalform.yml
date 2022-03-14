@@ -11,7 +11,7 @@ dependencies:
 id: yudl_barrio_subtheme_physicalform
 theme: yudl_barrio_subtheme
 region: sidebar_first
-weight: -11
+weight: -12
 provider: null
 plugin: 'facet_block:physical_form'
 settings:
