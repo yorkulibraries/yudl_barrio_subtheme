@@ -1,0 +1,22 @@
+langcode: en
+status: false
+dependencies:
+  theme:
+    - yudl_barrio_subtheme
+third_party_settings:
+  block_class:
+    classes: null
+id: yudl_barrio_subtheme_secondary_local_tasks
+theme: yudl_barrio_subtheme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
