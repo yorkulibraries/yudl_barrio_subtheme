@@ -16,7 +16,7 @@ third_party_settings:
 id: views_block__members_block_1
 theme: yudl_barrio_subtheme
 region: content
-weight: -6
+weight: 6
 provider: null
 plugin: 'views_block:members-block_1'
 settings:
